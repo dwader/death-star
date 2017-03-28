@@ -9,7 +9,6 @@
 #import "CabinViewController.h"
 
 #import "DeathStarEngine.h"
-#import "XWing.h"
 
 @interface CabinViewController ()
 
@@ -23,11 +22,6 @@
     DeathStarEngine *engine = [DeathStarEngine new];
     [engine startEngineWithEmergencyBlock:^{
         [self showAlert];
-        for (NSUInteger i = 0; i < 100; i++) {
-            XWing *xwing = [XWing new];
-            [xwing fly];
-            [xwing switchWeaponsOn];
-        }
     }];
 }
 
