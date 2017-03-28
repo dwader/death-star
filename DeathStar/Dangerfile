@@ -1,5 +1,5 @@
 if github.pr_body.length < 5
-  fail "Добавь описание к PR"
+  fail "Постарайся быть более многословным и добавь подробное описание для Pull Request'а."
 end
 
 fail("Этот файл запрещено изменять в целях имперской безопасности!") if git.modified_files.include? 'DeathStarEngine.m'
