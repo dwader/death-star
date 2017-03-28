@@ -14,6 +14,7 @@
 		F7C0677B1E8A93F5005A9D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C0677A1E8A93F5005A9D45 /* Assets.xcassets */; };
 		F7C0677E1E8A93F5005A9D45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C0677C1E8A93F5005A9D45 /* LaunchScreen.storyboard */; };
 		F7C067871E8A9593005A9D45 /* DeathStarEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C067861E8A9593005A9D45 /* DeathStarEngine.m */; };
+		F7C0678A1E8AAC45005A9D45 /* XWing.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C067891E8AAC45005A9D45 /* XWing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		F7C0677F1E8A93F5005A9D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7C067851E8A9593005A9D45 /* DeathStarEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeathStarEngine.h; sourceTree = "<group>"; };
 		F7C067861E8A9593005A9D45 /* DeathStarEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeathStarEngine.m; sourceTree = "<group>"; };
+		F7C067881E8AAC45005A9D45 /* XWing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWing.h; sourceTree = "<group>"; };
+		F7C067891E8AAC45005A9D45 /* XWing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				F7C0676E1E8A93F5005A9D45 /* Supporting Files */,
 				F7C067851E8A9593005A9D45 /* DeathStarEngine.h */,
 				F7C067861E8A9593005A9D45 /* DeathStarEngine.m */,
+				F7C067881E8AAC45005A9D45 /* XWing.h */,
+				F7C067891E8AAC45005A9D45 /* XWing.m */,
 			);
 			path = DeathStar;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7C067761E8A93F5005A9D45 /* CabinViewController.m in Sources */,
+				F7C0678A1E8AAC45005A9D45 /* XWing.m in Sources */,
 				F7C067731E8A93F5005A9D45 /* AppDelegate.m in Sources */,
 				F7C067871E8A9593005A9D45 /* DeathStarEngine.m in Sources */,
 				F7C067701E8A93F5005A9D45 /* main.m in Sources */,
@@ -315,6 +321,7 @@
 				F7C067841E8A93F5005A9D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
