@@ -23,6 +23,8 @@
     [engine startEngineWithEmergencyBlock:^{
         [self showAlert];
     }];
+    
+    NSLog(@"Piu Piu Piu");
 }
 
 

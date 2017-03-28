@@ -22,6 +22,7 @@
 
 - (void)stopEngine {
     self.emergencyBlock();
+    NSLog(@"1234 ");
 }
 
 @end
